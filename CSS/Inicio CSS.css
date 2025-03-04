@@ -1,0 +1,176 @@
+/* Principal */
+html{
+    background-color: #A99C91; 
+}
+
+body{
+    background-color: #FFF9F5;
+}
+
+p{
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    text-align: justify;
+}
+
+.inicio{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    margin: 20px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    background-color: #f8efe7;
+    margin-top: 100px;
+    padding: 15px; /* Agregar un poco de padding para que el contenido no esté pegado al borde */
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.titulos{
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    margin-left: auto;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitulos{
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    margin-left: auto;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.spoiler{
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    margin-left: auto;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: red;
+}
+
+.img1_inicio{
+    height: 250px;
+    width: 420px;
+    margin-left: 12px;
+    border-radius: 4%;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedores */
+.col-lg-6{
+    text-align: center;
+    width: 45%;
+    
+}
+
+.container-fluid{
+    text-align: center;
+    /* max-width: 120000px; margin: auto; */
+}
+
+.row{
+    justify-content: center;
+}
+
+.div_inf .div_inf2{
+    
+    height: auto; /* Ajusta el alto del contenedor */
+    padding: 15px; /* Agrega un espacio interno */
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction:column; /* Ajusta la dirección de los elementos */
+    justify-content: space-around; /* Distribuye los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Imagenes */
+.img_icon{
+    height: 55px;
+    width: 45px;
+}
+
+/* Cards */
+.card-completo{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.card{
+    height: 39rem;
+    width: 25rem;
+
+}
+.card-img-top{
+    height: 350px;
+    width: 400px;
+}
+
+.card-body{
+    height: 39rem;
+    width: 25rem;
+}
+
+/* Estilos Pie de pagina */
+footer {
+    font-family: 'Times New Roman';
+    background-color: #1D0E0B; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado interno */
+    position: relative; /* Posición relativa */
+    border: 1px solid #1D0E0B; /* Borde del footer */
+    border-radius: 20px; /* Bordes redondeados */
+    margin-top: auto; /* Asegura que el footer esté al final de la página */
+    margin-top: 30px;
+}
+
+/* Barra de Navegacion */
+.navbar-custom {
+    background-color: #1D0E0B; /* Color de fondo personalizado */
+    padding: 1rem; /* Espacio interno */
+    border-radius: 15px; /* Bordes redondeados */
+    border-bottom: 2px solid #ffffff; /* Borde inferior */
+    position: fixed; /* Fija la navbar en la parte superior */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.navbar-custom .navbar-brand {
+    color: #f2eded; /* Color del texto de la marca */
+    font-size: 1.9rem; /* Tamaño del texto de la marca */
+}
+
+.navbar-custom .nav-link {
+    color: #fff; /* Color de los enlaces */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ccc; /* Color de los enlaces al pasar el cursor */
+}
+
+.navbar-custom .nav-link.active {
+    color: #333; /* Color del enlace activo */
+    font-weight: bold; /* Negrita para el enlace activo */
+}
+
+.navbar-toggler {
+    background-color: #333; /* Color del botón del toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    /* Icono del toggler con color blanco */
+}
+
+/* Margen superior para el contenido */
+.content {
+    margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+}

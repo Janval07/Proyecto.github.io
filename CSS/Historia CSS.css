@@ -1,0 +1,204 @@
+/* Principal */
+html{
+    background-color: #e5e5e5; 
+    flex: content;
+}
+
+body{
+    background-color: #FFF9F5;
+}
+
+p{
+    font-family: 'Times New Roman';
+    font-family: serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+li{
+    text-align: left;
+}
+
+.title{
+    margin-top: 100px;
+}
+
+.titulos{
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.subtitulos{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.img1_inicio{
+    height: 250px;
+    width: 420px;
+    margin-left: 12px;
+    border-radius: 4%;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos Mapa */
+.mapa_murallas{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    margin: 20px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    
+    margin-top: 8px;
+    padding: 15px; /* Agregar un poco de padding para que el contenido no esté pegado al borde */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.mapa {
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Video */
+.video{
+    justify-content: center;
+}
+
+/* Estilos Seccion Historia */
+.historia {
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: stretch; /* Alinear elementos a la altura del contenedor */
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    margin-top: -50px;
+    
+    padding: 15px; /* Agregar un poco de padding para que el contenido no esté pegado al borde */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.scrollspy-example-2 {
+    height: 750px; /* Asegura que el área de contenido ocupe toda la altura */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+    text-align: center;
+}
+
+#navbar-example3 {
+    height: 100%; /* h-100 */
+    display: flex; /* flex-column */
+    flex-direction: column; /* flex-column */
+    align-items: stretch; /* align-items-stretch */
+    padding-right: 1.5rem; /* pe-4 (24px) */
+    border-right: 1px solid #707070; /* border-end (puedes ajustar el color según sea necesario) */
+}
+
+/* Cambiar el color del texto de los enlaces */
+#navbar-example3 .nav-link {
+    color: #D88C51; /* Cambia este color al que desees */
+}
+
+/* Cambiar el color del texto al pasar el mouse */
+#navbar-example3 .nav-link:hover {
+    color: #774023; /* Cambia este color al que desees para el hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Cambia el fondo al pasar el mouse (opcional) */
+}
+
+/* Cambiar el color del enlace activo */
+#navbar-example3 .nav-link.active {
+    color: #ffffff; /* Cambia este color al que desees para el texto activo */
+    background-color: #1D0E0B; /* Cambia este color al que desees para el fondo activo */
+}
+
+.row{
+    display: flex;
+            justify-content: center; /* Centra horizontalmente */
+}
+
+/* Estilos cronologia */
+.cronologia{
+    text-align: center;
+}
+
+/* Imagenes */
+.img_icon{
+    height: 55px;
+    width: 45px;
+}
+
+/* Estilos Seccion Cronologia */
+.cronologia{
+    justify-content: center; /* Centrar horizontalmente */
+    font-family: 'Times New Roman';
+}
+
+/* Estilos Pie de pagina */
+footer {
+    font-family: 'Times New Roman';
+    background-color: #1D0E0B; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado interno */
+    position: relative; /* Posición relativa */
+    border: 1px solid #1D0E0B; /* Borde del footer */
+    border-radius: 20px; /* Bordes redondeados */
+    margin-top: auto; /* Asegura que el footer esté al final de la página */
+    margin-top: 30px;
+}
+
+
+/* Barra de Navegacion */
+.navbar-custom {
+    background-color: #1D0E0B; /* Color de fondo personalizado */
+    padding: 1rem; /* Espacio interno */
+    border-radius: 15px; /* Bordes redondeados */
+    border-bottom: 2px solid #ffffff; /* Borde inferior */
+    position: fixed; /* Fija la navbar en la parte superior */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.navbar-custom .navbar-brand {
+    color: #f2eded; /* Color del texto de la marca */
+    font-size: 1.9rem; /* Tamaño del texto de la marca */
+}
+
+.navbar-custom .nav-link {
+    color: #fff; /* Color de los enlaces */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ccc; /* Color de los enlaces al pasar el cursor */
+}
+
+.navbar-custom .nav-link.active {
+    color: #ffffff; /* Color del enlace activo */
+    font-weight: bold; /* Negrita para el enlace activo */
+}
+
+.navbar-toggler {
+    background-color: #333; /* Color del botón del toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    /* Icono del toggler con color blanco */
+}
+
+/* Margen superior para el contenido */
+.content {
+    margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+}

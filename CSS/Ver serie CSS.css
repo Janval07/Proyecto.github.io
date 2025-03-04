@@ -1,0 +1,249 @@
+/* Principal */
+html{
+    background-color: #e5e5e5; 
+    flex: content;
+    
+}
+
+body{
+    background-color: #FFF9F5;
+}
+
+
+p{
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+
+    
+}
+
+.titulos{
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtitulos{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.img1_inicio{
+    height: 250px;
+    width: 420px;
+    margin-left: 12px;
+    border-radius: 4%;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tablas */
+li{
+    text-align: left;
+    
+}
+
+.serie{
+    background-color: #f8efe7;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    margin: 40px;
+    border: 1px solid #333;
+    border-radius: 25px;
+
+    margin-top: 0px;
+    padding: 15px; /* Agregar un poco de padding para que el contenido no esté pegado al borde */
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Estilos Indice */
+.indice{
+    background-color: #fcecd7;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    margin: 30px;
+    border: 1px solid #333;
+    border-radius: 25px;
+
+    margin-top: 8px;
+    padding: 15px; /* Agregar un poco de padding para que el contenido no esté pegado al borde */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.text-indice{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: #1D0E0B; /* Cambia el color del texto si lo deseas */
+    text-decoration: none; /* Quita el subrayado */
+
+}
+
+.text-indice:hover {
+    text-decoration: underline; /* Opcional: agrega subrayado al pasar el mouse */
+    color:#774023; /* Cambia el color al pasar el mouse (opcional) */
+}
+
+/* Estilos barra de navegacion indice */
+.form-container {
+    background-color: white; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Ancho fijo */
+}
+
+label {
+    display: block; /* Hacer que el label ocupe toda la línea */
+    margin-bottom: 10px; /* Espaciado inferior */
+    font-weight: bold; /* Negrita */
+}
+
+input[type="search"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+button {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #774023; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+button:hover {
+    background-color: #1D0E0B; /* Color de fondo al pasar el mouse */
+}
+
+/* Contenedores */
+.col-lg-6{
+    text-align: center;
+    width: 45%;
+    
+}
+
+.container-fluid{
+    text-align: center;
+    /* max-width: 120000px; margin: auto; */
+}
+
+.row{
+    justify-content: center;
+}
+
+.div_inf .div_inf2{
+    
+    height: auto; /* Ajusta el alto del contenedor */
+    padding: 15px; /* Agrega un espacio interno */
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction:column; /* Ajusta la dirección de los elementos */
+    justify-content: space-around; /* Distribuye los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.season{
+    font-family: 'Times New Roman';
+}
+
+.ova{
+    font-family: 'Times New Roman';
+}
+
+/* Imagenes */
+.img_icon{
+    height: 55px;
+    width: 45px;
+}
+
+/* Cards */
+.card-completo{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.card{
+    height: 32rem;
+    width: 22rem;
+
+}
+.card-img-top{
+    height: 330px;
+    width: 350px;
+}
+
+.card-body{
+    height: 32rem;
+    width: 22rem;
+}
+
+/* Estilos Pie de pagina */
+footer {
+    font-family: 'Times New Roman';
+    background-color: #1D0E0B; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado interno */
+    position: relative; /* Posición relativa */
+    border: 1px solid #1D0E0B; /* Borde del footer */
+    border-radius: 20px; /* Bordes redondeados */
+    margin-top: auto; /* Asegura que el footer esté al final de la página */
+    margin-top: 30px;
+}
+
+/* Barra de Navegacion */
+.navbar-custom {
+    background-color: #1D0E0B; /* Color de fondo personalizado */
+    padding: 1rem; /* Espacio interno */
+    border-radius: 15px; /* Bordes redondeados */
+    border-bottom: 2px solid #ffffff; /* Borde inferior */
+    position: fixed; /* Fija la navbar en la parte superior */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.navbar-custom .navbar-brand {
+    color: #f2eded; /* Color del texto de la marca */
+    font-size: 1.9rem; /* Tamaño del texto de la marca */
+}
+
+.navbar-custom .nav-link {
+    color: #fff; /* Color de los enlaces */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ccc; /* Color de los enlaces al pasar el cursor */
+}
+
+.navbar-custom .nav-link.active {
+    color: #fcfcfc; /* Color del enlace activo */
+    font-weight: bold; /* Negrita para el enlace activo */
+}
+
+.navbar-toggler {
+    background-color: #333; /* Color del botón del toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    /* Icono del toggler con color blanco */
+}
+
+/* Margen superior para el contenido */
+.content {
+    margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+}

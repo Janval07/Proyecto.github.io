@@ -1,0 +1,162 @@
+/* Principal */
+html{
+    background-color: #e5e5e5; 
+    flex: content;
+    
+}
+
+body{
+    background-color: #FFF9F5;
+}
+
+p{
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+
+}
+#title{
+    margin-top: 100px;
+}
+
+.titulos{
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.subtitulos{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.img1_inicio{
+    height: 250px;
+    width: 420px;
+    margin-left: 12px;
+    border-radius: 4%;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tablas */
+.table{
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    width: 400px;
+    justify-content: center;
+    padding: 8px;
+    font-size: 18px; 
+}
+
+/* Contenedores */
+.personajes{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los cards se envuelvan en varias filas */
+    justify-content: space-around; /* Espacio entre los cards */
+    background-color: #FFF9F5; /* Color de fondo del card */
+}
+
+/* Imagenes */
+.img_icon{
+    height: 55px;
+    width: 45px;
+}
+
+/* Cards */
+.card {
+    width: 19rem; /* Ancho fijo para todos los cards */
+    height: 36rem; /* Altura fija para todos los cards */
+    display: flex; /* Usar flexbox para alinear el contenido */
+    flex-direction: column; /* Alinear el contenido en columna */
+    background-color: #FFF9F5; /* Color de fondo del card */
+    border: 1px solid #F3E7C9; /* Borde del card */
+    border-radius: 10px; /* Bordes redondeados */
+}
+.card-img-top {
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+}
+.card .card-body {
+    flex-grow: 5; /* Permite que el cuerpo del card ocupe el espacio restante */
+    color: #333; /* Color del texto dentro del card */
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Alinear en columna */
+    align-items: center; /* Centrar horizontalmente */
+}
+
+.btn-primary {
+    background-color: #774023; /* Color de fondo del botón */
+    border-color: #F3E7C9; /* Color del borde del botón */
+}
+
+.btn-primary:hover {
+    background-color: #1D0E0B; /* Color de fondo al pasar el mouse */
+    border-color: #F3E7C9; /* Color del borde al pasar el mouse */
+}
+
+/* Estilos Pie de pagina */
+footer {
+    font-family: 'Times New Roman';
+    background-color: #1D0E0B; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado interno */
+    position: relative; /* Posición relativa */
+    border: 1px solid #1D0E0B; /* Borde del footer */
+    border-radius: 20px; /* Bordes redondeados */
+    margin-top: auto; /* Asegura que el footer esté al final de la página */
+    margin-top: 30px;
+}
+
+/* Barra de Navegacion */
+.navbar-custom {
+    background-color: #1D0E0B; /* Color de fondo personalizado */
+    padding: 1rem; /* Espacio interno */
+    border-radius: 15px; /* Bordes redondeados */
+    border-bottom: 2px solid #ffffff; /* Borde inferior */
+    position: fixed; /* Fija la navbar en la parte superior */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.navbar-custom .navbar-brand {
+    color: #f2eded; /* Color del texto de la marca */
+    font-size: 1.9rem; /* Tamaño del texto de la marca */
+}
+
+.navbar-custom .nav-link {
+    color: #fff; /* Color de los enlaces */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ccc; /* Color de los enlaces al pasar el cursor */
+}
+
+.navbar-custom .nav-link.active {
+    color: #ffffff; /* Color del enlace activo */
+    font-weight: bold; /* Negrita para el enlace activo */
+}
+
+.navbar-toggler {
+    background-color: #333; /* Color del botón del toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    /* Icono del toggler con color blanco */
+}
+
+/* Margen superior para el contenido */
+.content {
+    margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+}
