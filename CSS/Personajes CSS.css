@@ -1,9 +1,10 @@
 /* Principal */
 html{
-    background-color: #e5e5e5; 
+    background-color: #FFF9F5; 
     flex: content;
     
 }
+
 
 body{
     background-color: #FFF9F5;
@@ -48,6 +49,7 @@ p{
 .table{
     justify-content: center;
     align-items: center;
+    background-color: #FFF9F5;
 }
 
 td {
@@ -55,14 +57,32 @@ td {
     justify-content: center;
     padding: 8px;
     font-size: 18px; 
+    background-color: #FFF9F5; 
 }
 
-/* Contenedores */
+tr {
+    width: 400px;
+    justify-content: center;
+    padding: 8px;
+    font-size: 18px; 
+    background-color: #FFF9F5; 
+    margin: 50px;
+}
+
+/* Secciones de Personajes */
+.principales, .guerreros, .secundarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    background-color: #e5e5e5; 
+}
+
 .personajes{
     display: flex;
     flex-wrap: wrap; /* Permite que los cards se envuelvan en varias filas */
     justify-content: space-around; /* Espacio entre los cards */
     background-color: #FFF9F5; /* Color de fondo del card */
+    border: 1px solid #000000; /* Borde del card */
 }
 
 /* Imagenes */
@@ -78,14 +98,18 @@ td {
     display: flex; /* Usar flexbox para alinear el contenido */
     flex-direction: column; /* Alinear el contenido en columna */
     background-color: #FFF9F5; /* Color de fondo del card */
-    border: 1px solid #F3E7C9; /* Borde del card */
+    border: 1px solid #020202; /* Borde del card */
     border-radius: 10px; /* Bordes redondeados */
+    margin: 10px;
+    
 }
 .card-img-top {
     height: 200px; /* Altura fija para las imágenes */
     object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    border: 1px solid #c99a81; /* Borde del card */
 }
-.card .card-body {
+
+.card-body {
     flex-grow: 5; /* Permite que el cuerpo del card ocupe el espacio restante */
     color: #333; /* Color del texto dentro del card */
     display: flex; /* Usar flexbox */
